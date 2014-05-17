@@ -148,11 +148,11 @@ I find the original implementation of the OptionParser to be very much in violat
 
 My goal here is to support everything that is supported in OptionParser, but I don't want to use it's interaction interface at all, except maybe as a guide of how NOT to implement an interface.
 
-* (http://www.ruby-doc.org/stdlib-2.1.1/libdoc/optparse/rdoc/OptionParser.html)[Original doc]
+* [Original doc](http://www.ruby-doc.org/stdlib-2.1.1/libdoc/optparse/rdoc/OptionParser.html)
 
-1.) The argument specification and the code to handle it are written in the same place.
-2.) It can output an option summary; you don’t need to maintain this string separately.
-3.) Optional and mandatory arguments are specified very gracefully.
-4.) Arguments can be automatically converted to a specified class.
-5.) Arguments can be restricted to a certain set.
+1. The argument specification and the code to handle it are written in the same place.
+2. It can output an option summary; you don’t need to maintain this string separately.
+3. Optional and mandatory arguments are specified very gracefully.
+4. Arguments can be automatically converted to a specified class.
+5. Arguments can be restricted to a certain set.
 
